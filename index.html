@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Document</title>
-  <link rel="stylesheet" href="main.css">
-  <script src = "tictac.js" async></script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="tictac.js"></script>
 </head>
 <body>
-  <h2 class = "Turn">Matt's Tic Tac Toe</h2>
-  <table>
-    <thead>
-      <tr>
-        <td data-num="0"></td>
-        <td data-num="1"></td>
-        <td data-num="2"></td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-num="3"></td>
-        <td data-num="4"></td>
-        <td data-num="5"></td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td data-num="6"></td>
-        <td data-num="7"></td>
-        <td data-num="8"></td>
-      </tr>
-    </tfoot>
-  </table>
-  <div class = "container">
-    <button id="reset">Reset</button>
-  </div>
+	<div id="container">
+	    <div class="header">Matt's Tic-Tac-Toe Game</div>
+	    <div id="board">
+	        <table>
+	          <tr>
+	            <td id=1 class="square"></td>
+	            <td id=2 class="square"></td>
+	            <td id=3 class="square"></td>
+	          </tr>
+	          <tr>
+	            <td id=4 class="square"></td>
+	            <td id=5 class="square"></td>
+	            <td id=6 class="square"></td>
+	          </tr>
+	          <tr>
+	            <td id=7 class="square"></td>
+	            <td id=8 class="square"></td>
+	            <td id=9 class="square"></td>
+	          </tr>
+	        </table>
+	      </div>
+
+		<div style="text-align:center;">
+      <button class="invisible" id="newGame">New game!</button>
+    </div>
+	</div>
+
 </body>
 </html>
